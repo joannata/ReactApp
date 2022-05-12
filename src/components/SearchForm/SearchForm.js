@@ -20,7 +20,7 @@ const SearchForm = () => {
 
   useEffect(() => {
     return () => {
-    dispatch(updateSearchString(searchString));
+    dispatch(updateSearchString(''));
     }
   }, []);
 
