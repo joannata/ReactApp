@@ -11,8 +11,8 @@
 
 .listLink {
   display: block;
-  max-width: $base-size * 35;
-  margin: ($base-size * 2) auto ($base-size * 2) auto;
+  max-width: $base-size * 52;
+  margin: ($base-size * 4) auto ($base-size * 2) auto;
   text-decoration: none;
   color: $color-dark;
   background: $color-light;
@@ -20,4 +20,13 @@
   border-radius: $radius;
   box-shadow: 0 math.div($base-size, 4) 0 rgba(0,0,0,0.3);
   padding: $base-size;
+}
+
+h3 {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 17px;
 }
